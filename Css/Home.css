@@ -1,0 +1,40 @@
+body{ 
+    background-color: #24353F;
+} 
+.navbar{ 
+    padding: 10px 5px;
+    box-shadow: 8px 8px 7px 8px rgb(0, 0, 0,0.4);
+}  
+.navbar .navbar-brand a{ 
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      
+}
+.navbar button{ 
+    border-color: #FFC107;
+     
+    
+    
+}
+.navbar button a{ 
+    color: gray;     
+    
+    
+}
+.navbar button:hover{  
+    background-color: #FFC107;
+    color: white; 
+
+} 
+.card-info{ 
+    background-color: #24353F;
+    box-shadow: 8px 8px 7px 8px rgb(0, 0, 0,0.4); 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translatex(-50%);
+}
+.card-info h1{ 
+    color: #17A2B8;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Page</title> 
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center">  
+        <div class="login-card w-75 mt-5 d-flex justify-content-center align-items-center flex-column"  >  
+            <h1 class="mt-5">Smart Login System</h1> 
+            <div class="mb-3 m-2">
+                <input type="email" class="form-control text-white" id="emailLogin" placeholder="Enter Your Email">
+              </div>
+            <div class="mb-3 m-2">
+                <input type="password" class="form-control text-white" id="PasswordLogin" placeholder="Enter Your Password">
+              </div>  
+              <p class="text-danger text-center d-none" id="messageLogin">In-valid Email or Password Try Again</p> 
+              <button class="btn  form-control m-2" id="btn_login">Login</button> 
+              <p class="mb-4 linkanchor text-white">Don’t have an account? <a href="signup.html">Sign Up</a></p>
+            
+        </div>
+    </div> 
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

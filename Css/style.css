@@ -1,0 +1,38 @@
+body{ 
+    background-color: #24353F;
+}
+.login-card{ 
+    background-color: #24353F;
+    box-shadow: 8px 8px 7px 8px rgb(0, 0, 0,0.4);
+}
+.login-card h1{ 
+    color: #17A2B8;
+}
+.login-card div{ 
+    width:90%;
+}
+.login-card button{ 
+    width:90%;
+    background-color: transparent; 
+    border-color:#17A2B8 ;
+    color: #17A2B8;
+} 
+.login-card button:hover{ 
+    background-color:#17A2B8 ; 
+    color:white;
+}
+.login-card .linkanchor a{ 
+    color: white; 
+    text-decoration: none;
+}
+.login-card .linkanchor a:hover{ 
+    
+    text-decoration:underline ;
+} 
+.login-card div input{ 
+    background-color: transparent;
+}  
+.login-card div input:focus{ 
+    background-color: #24353F;
+    border-color: #17A2B8;
+}
